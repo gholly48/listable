@@ -9,8 +9,8 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "Vazir";
-  src: url("/fonts/Vazir-Regular.ttf") format("truetype");
+  font-family: "Vazir-Bold";
+  src: url("/fonts/Vazir-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -36,7 +36,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "irsans", sans-serif;
+  font-family: "irsans", "Vazir-Bold", "BYekan", sans-serif;
   direction: rtl;
   text-align: right;
 }
